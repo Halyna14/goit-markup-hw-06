@@ -599,7 +599,6 @@
                 <use href="./img/icons/symbol-defs.svg#send"></use>
               </svg>
             </button>
-            
           </form>
         </div>
       </div>
@@ -647,13 +646,27 @@
               <textarea
                 class="form-textarea"
                 name="user-comments"
-                rows="10"
+                rows="8"
                 placeholder="Введите текст"
               ></textarea>
             </label>
           </div>
           <label class="form-checkbox">
-            <input class="input-checkbox" type="checkbox" name="agreement" />
+            <input
+              class="input-checkbox visualy-hidden"
+              type="checkbox"
+              name="agreement"
+            />
+            <svg class="form-checkbox-icons" width="16" height="15">
+              <use
+                class="icon-uncheck"
+                href="./img/icons/symbol-defs.svg#uncheck"
+              ></use>
+              <use
+                class="icon-check"
+                href="./img/icons/symbol-defs.svg#check"
+              ></use>
+            </svg>
             <span class="text-checkbox"
               >Соглашаюсь с рассылкой и принимаю
               <a
