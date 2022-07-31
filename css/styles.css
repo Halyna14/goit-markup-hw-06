@@ -820,6 +820,9 @@ img {
   position: absolute;
   bottom: 11px;
   left: 12px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover + .form-icon,
@@ -908,6 +911,9 @@ img {
   border-radius: 4px;
   padding: 11px;
   padding-left: 40px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
@@ -963,6 +969,12 @@ img {
 .form-input-footer:focus {
   border-color: #2196f3;
 }
+.form-input-footer {
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form-footer-btn {
   display: flex;
   align-items: center;
